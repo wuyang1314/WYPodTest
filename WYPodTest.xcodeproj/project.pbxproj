@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A9B1D583230D3C5E0058AFE2 /* WYPodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B1D581230D3C5E0058AFE2 /* WYPodTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B1D58B230D44A30058AFE2 /* Animal.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B1D589230D44A30058AFE2 /* Animal.h */; };
+		A9B1D58C230D44A30058AFE2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B1D58A230D44A30058AFE2 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9B1D57E230D3C5E0058AFE2 /* WYPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B1D581230D3C5E0058AFE2 /* WYPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPodTest.h; sourceTree = "<group>"; };
 		A9B1D582230D3C5E0058AFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B1D589230D44A30058AFE2 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		A9B1D58A230D44A30058AFE2 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				A9B1D581230D3C5E0058AFE2 /* WYPodTest.h */,
+				A9B1D589230D44A30058AFE2 /* Animal.h */,
+				A9B1D58A230D44A30058AFE2 /* Animal.m */,
 				A9B1D582230D3C5E0058AFE2 /* Info.plist */,
 			);
 			path = WYPodTest;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B1D58B230D44A30058AFE2 /* Animal.h in Headers */,
 				A9B1D583230D3C5E0058AFE2 /* WYPodTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B1D58C230D44A30058AFE2 /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
